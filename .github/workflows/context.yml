@@ -7,6 +7,6 @@ jobs:
       - run: echo "${{ github.actor }}"
       - run: echo "${{ github.run_id }}"
       - run: echo "${{ github.event }}"
-      - run: echo "${{ runner.os }}"
+      - run: echo "${{ runner.name }}"
       - run: echo "${{ runner.arch }}"
       - run: echo "${{ runner.os }}"
